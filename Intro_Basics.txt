@@ -1,0 +1,37 @@
+Data Types: it specifies the type of data that can be stored in a variable. It also specifies the size of the memory that will be allocated to the variable.
+
+> Basic Data Types: int (whole numbers), float(values with decimal points), char(only one alphabet), double (int + float)
+> Derived Data Types: array, pointer, structure, union
+> Enumeration Data Types: enum (array of constants)
+> Void Data Types: void (nothing)
+
+> Variable is an alias name for memory location. It is used to store data. Its value can be changed and it can be reused many times.
+
+memory taken by each data type: 
+int = 2 bytes
+float = 4 bytes
+char = 1 byte
+double = 8 bytes
+
+smallest unit of memory is bit (0 or 1)
+
+bit = 0 or 1
+//nibble = 4 bits
+byte = 8 bits
+//word = 2 bytes
+//double word = 4 bytes
+//quad word = 8 bytes
+1 kilobyte = 1024 bytes
+1 megabyte = 1024 kilobytes
+1 gigabyte = 1024 megabytes
+1 terabyte = 1024 gigabytes
+
+Tokens : smallest unit of a program that is meaningful to the compiler. It can be a keyword, identifier, constant, string literal, special symbol, operator. It helps in forming a valid statement.
+
+Keywords : words that have a predefined meaning in C. They cannot be used as variable names. They are also known as reserved words. They are all in lowercase.
+
+Identifiers : names given to variables, functions, arrays, etc. They are user-defined. They are case sensitive. They can be a combination of letters, digits, and underscore. They cannot start with a digit. They cannot be a keyword.
+
+Constants : fixed values that do not change during the execution of a program. They can be integer constants, real constants, character constants, string constants, and symbolic constants.
+
+ASCII Table: https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html
