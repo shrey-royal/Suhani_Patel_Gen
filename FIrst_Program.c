@@ -35,7 +35,6 @@ void main() {
     // a += b;  //a = a*2;
     // printf("a = %d\n", a);
 
-
     // system("pause"); //Pauses the console screen
 }
 
@@ -48,5 +47,13 @@ void main() {
 5. Assignment Operators: =, +=, -=, *=, /=, %=, <<=, >>=, &=, ^=, |=
 6. Increment/Decrement Operators: ++, --
 7. Conditional Operators: ?:
+
+
+c = a + b;
+
+Operand and Operator:
+
+Operand: The data on which the operation is performed
+Operator: The symbol that performs the operation
 
 */
