@@ -108,4 +108,6 @@ HomeWork:
 
 https://jamboard.google.com/d/1l1ZI3amOUYcrE1ofRtm1b_JPfwwWOroBPXl5F6JBeJA/viewer?mtt=cvarjy2mg4l4&f=1
 
+Binary to Decimal -> https://www.rapidtables.com/convert/number/binary-to-decimal.html
+
 */
