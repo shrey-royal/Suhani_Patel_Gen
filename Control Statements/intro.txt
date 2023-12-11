@@ -9,6 +9,7 @@ Two categories (control stmt):
 control statements with branching: if-else, switch-case
 control statements with looping: for, while and do-while.
 
+1. If else 
 program: 2 sets of instructions
 > if this happens then execute first set of instructions
 > if this doesn't happen then execute other set of instructions
@@ -16,3 +17,6 @@ program: 2 sets of instructions
 program of even number: 2 printf statements (even, odd)
 > if number is even then execute the first print stmt (even)
 > if number is (not even / odd) then execute the second print stmt (odd)
+
+Switch Case:
+
