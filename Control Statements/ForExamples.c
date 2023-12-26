@@ -14,15 +14,40 @@ void main() {
     // printf("Sum of all numbers till %d is %d", num, sum);
 // --------------------------------------------------------------------------------------------
 // -power
-    int base, i, power, res=1;
+    // int base, i, power, res=1;
 
-    printf("\nEnter base then power: ");
-    scanf("%d%d", &base, &power);
+    // printf("\nEnter base then power: ");
+    // scanf("%d%d", &base, &power);
 
-    for(int i=1; i<=power; i++) {
-        res = res * base;
+    // for(int i=1; i<=power; i++) {
+    //     res = res * base;
+    // }
+
+    // printf("\n%d^%d = %d", base, power, res);
+
+// --------------------------------------------------------------------------------------------
+// -armstrong number
+    int num, temp, sum=0, rem;
+
+    printf("\nEnter any integer: ");
+    scanf("%d", &num);
+
+    temp = num; //copy generated
+
+    for(;num>0;) {
+        rem = num % 10;             //getting last digit
+        sum = sum + rem*rem*rem;    //adding the cube of the last digit into the sum variable
+        num = num / 10;             //remove last digit from the number
+        // printf("\nsum = %d\trem = %d", sum, rem);
     }
 
-    printf("\n%d^%d = %d", base, power, res);
+    if(sum == temp) {
+        printf("\n%d is an Armstrong Number", temp);
+    } else {
+        printf("\n%d is not an Armstrong Number", temp);
+    }
+
+
 
 }
+
