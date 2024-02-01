@@ -35,6 +35,26 @@ void main() {
         }
         printf("\n");
     }
+
+    printf("\n\n");
+    for (i = 0; i < row; i++) {       //outer loop responsible for rows
+        for (j = 0; j < col; j++) {   //inner loop responsible for columns
+            if(i==j) {
+                printf("  ");
+            } else {
+                printf("* ");
+            }
+        }
+        printf("\n");
+    }
+
+    printf("\n\n");
+    for (i = 0; i < row; i++) {       //outer loop responsible for rows
+        for (j = 0; j <= (col-i-1); j++) {   //inner loop responsible for columns
+            printf("* ");
+        }
+        printf("\n");
+    }
     
 
 }
@@ -49,19 +69,31 @@ void main() {
 
 
 
-
+---------
 * * * * *
 * *     *
 *   *   *
 *     * *
 * * * * *
-
-Task:
-
+---------
   * * * *
 *   * * *
 * *   * *
 * * *   *
 * * * *
+---------
+* * * * *
+* * * *
+* * *
+* * 
+*
+---------
+Task:
+* * * * *
+* *   * *
+*   *   *
+* *   * *
+* * * * *
+
 
 */
